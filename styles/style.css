@@ -1,0 +1,131 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px; 
+}
+
+header {
+    background: #222;
+    padding: 20px 0; /* Increased padding for a taller header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px); /* Glass effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);  Subtle border */
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 70px; /* Increased logo size */
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.company-name {
+    font-size: 26px; /* Slightly bigger text */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.company-name span:first-child {
+    color: #22E4FE; /* Light Blue */
+}
+
+.company-name span:last-child {
+    color: #F4B650; /* Orange-Yellow */
+}
+
+.tagline {
+    font-size: 14px; /* Slightly bigger tagline */
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    padding: 8px 12px;
+    position: relative;
+}
+
+/* Cool Hover Effects */
+.nav-links a:hover {
+    color: #F4B650;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #F4B650;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+    left: 0;
+}
+.scrolled-title {
+    color: black !important; /* New color */
+  }
+.scrolled a {
+    color: black !important; /* New color */
+  }
+  
+
+  
+  

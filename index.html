@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBenders - Home</title>
+    <link rel="icon" type="image/png" href="assets/airbender_logo.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/hero_section.css">
+    <link rel="stylesheet" href="styles/services_style.css">
+    <link rel="stylesheet" href="styles/about_style.css">
+    <link rel="stylesheet" href="styles/footer_style.css">
+    <link rel="stylesheet" href="styles/responsive_style.css">
+    <link rel="stylesheet" href="styles/contact_style.css">
+    <link rel="stylesheet" href="styles/project_style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="AirBenders Consultancy - Your trusted partner in MEP Engineering Services. We provide top-notch mechanical, electrical, plumbing and Web Development solutions for businesses.">
+    <meta name="keywords" content="MEP Engineering, AirBenders Consultancy, HVAC Systems, Plumbing Services, Electrical Engineering, Building Services, Web Development">
+    <meta name="author" content="AirBenders Consultancy">
+    <meta name="robots" content="index, follow">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src="assets/airbender_logo.png" alt="Airbenders Logo">
+            <div class="text">
+              <span class="company-name">
+                <span>AIR</span><span>BENDER</span>
+              </span>
+              <span id="subTitle" class="tagline">Design Consultancy</span>
+            </div>
+          </div>
+          <nav id="navbar">
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main id="home">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to AirBenders Consultancy</h1>
+                <p>Your trusted partner in MEP Engineering Services</p>
+            </div>
+        </section>        
+      
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            
+            <div class="service-cards">
+              <div class="card">
+                <img src="assets/civil_service.jpg">
+                <h3>Civil Engineering</h3>
+                <p>We provide top-notch Civil design solutions to meet all your requirements.</p>
+              </div>
+              <div class="card">
+                <img src="assets/hvac_service.jpg" alt="HVAC Services">
+                <h3>HVAC Systems</h3>
+                <p>Reliable and energy-efficient HVAC systems for comfortable environments.</p>
+              </div>
+              <div class="card">
+                <img src="assets/plumbing_services.jpg" alt="Plumbing Services">
+                <h3>Plumbing Solutions</h3>
+                <p>Professional plumbing services with advanced technology and efficiency.</p>
+              </div>
+              <div class="card">
+                <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Custom, responsive, and SEO-optimized websites, web apps, e-commerce platforms, and maintenance services.</p>
+              </div>
+            </div>
+          </section>   
+          
+          <section class="projects" id="projects">
+            <h2>Our Projects</h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_1.png" alt="Project 1"></div>
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_2.png" alt="Project 2"></div>
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_3.png" alt="Project 3"></div>
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_4.png" alt="Project 4"></div>
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_5.png" alt="Project 5"></div>
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_6.png" alt="Project 6"></div>
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_7.png" alt="Project 7"></div>
+                  <div class="swiper-slide"><img src="assets/projects_assets/project_8.png" alt="Project 8"></div>
+              </div>
+              <!-- Navigation buttons -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+          
+        </section>
+        
+          
+        <section class="about">
+          <div class="about-content">
+            <h2>Why Choose Us?</h2>
+            <p>With years of experience and a team of skilled engineers, we deliver quality services in the field of MEP engineering. Our commitment to excellence ensures that every project is completed with precision and efficiency.</p>
+          </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <!-- Contact Details -->
+                <div class="contact-details">
+                    <p><i class="fa fa-phone"></i> +91 95975 00808</p>
+                    <p><i class="fa fa-envelope"></i> hvac.prasanna@gmail.com </p>
+                </div>
+        
+                <!-- Contact Form -->
+                <form class="contact-form" id="emailForm">
+                    <h2>Contact Us</h2>
+                    <input type="text" placeholder="Your Name" id="name" required>
+                    <!-- <input type="email" placeholder="Your Email" required> -->
+                    <textarea placeholder="Your Message" id="message" required></textarea>
+                    <button type="submit" onclick="sendEmail()">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+      </main>
+      
+      <footer>
+        <div class="footer-container">
+            <div class="brand">
+                <img src="assets/airbender_logo.png" alt="Airbenders Logo" class="logo">
+                <div>
+                    <h2>Air Bender</h2>
+                    <p>Design Consultancy</p>
+                </div>
+            </div>
+            <div class="footer-services">
+              <h3>Services</h3>
+              <ul>
+                  <li>Civil Engineering</li>
+                  <li>HVAC Systems</li>
+                  <li>Plumbing Solutions</li>
+                  <li>Web Development</li>
+              </ul>
+          </div>   
+            <div class="social-icons">
+                <h3>Follow Us</h3>
+                <a href="#" class="social-link" style="margin: 0;"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© Copyright 2025 | All Rights Reserved.</p>
+        </div>
+    </footer>
+      
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
+</body>
+</html>
